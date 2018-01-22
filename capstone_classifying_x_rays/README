@@ -1,0 +1,39 @@
+Dataset
+~~~~~~~~
+
+Download dataset: https://nihcc.app.box.com/v/ChestXray-NIHCC
+
+
+
+Data Pre-processing
+~~~~~~~~~~~~~~~~~~~~
+
+In the images folder, run the following to reduce image size from 1024x1024 to
+197x197:
+
+find . -maxdepth 1 -iname "*.png" | xargs -L1 -I{} convert -resize 21.875% "{}" "{}"
+
+
+Categorize images to cardiomegaly and no finding:
+
+python prune_dataset.py
+
+
+Split images into training, validation and test data:
+
+python split_dataset.py
+
+
+
+Running code
+~~~~~~~~~~~~~
+
+Install:
+- Python, scikit-learn, numpy, pandas, pillow, tqdm, Keras, TensorFlow, CUDA
+and Nvidia drivers.
+
+Alternatively, if using AWS EC2, look at report.pdf's 'Implementation' section
+for AWS setup instructions.
+
+python train_multiple.py > output.txt
+
