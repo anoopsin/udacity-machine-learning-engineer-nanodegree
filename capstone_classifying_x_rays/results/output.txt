@@ -1,0 +1,241 @@
+
+Loading training, validation and test datasets ...
+
+There are 63137 total images.
+There are 44323 training images.
+There are 6282 validation images.
+There are 12532 test images.
+
+
+Converting files to tensors ...
+
+
+Finished loading dataset and converting files to tensors.
+
+
+
+Starting for own model ...
+
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/3
+
+Epoch 00001: val_loss improved from inf to 0.31265, saving model to own_model.weights.best.from_scratch.hdf5
+ - 195s - loss: 0.7065 - categorical_accuracy: 0.9558 - val_loss: 0.3127 - val_categorical_accuracy: 0.9564
+Epoch 2/3
+
+Epoch 00002: val_loss did not improve
+ - 163s - loss: 0.7062 - categorical_accuracy: 0.9562 - val_loss: 0.3127 - val_categorical_accuracy: 0.9564
+Epoch 3/3
+
+Epoch 00003: val_loss did not improve
+ - 163s - loss: 0.7062 - categorical_accuracy: 0.9562 - val_loss: 0.3127 - val_categorical_accuracy: 0.9564
+
+Accuracy score:  0.9553143951484201
+Precision score:  0.9553143951484201
+Recall score:  1.0
+F1 score:  0.9553143951484201
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.5/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+    8192/87910968 [..............................] - ETA: 1:57
+  139264/87910968 [..............................] - ETA: 42s 
+  507904/87910968 [..............................] - ETA: 21s
+ 1187840/87910968 [..............................] - ETA: 13s
+ 2318336/87910968 [..............................] - ETA: 8s 
+ 4128768/87910968 [>.............................] - ETA: 6s
+ 7258112/87910968 [=>............................] - ETA: 3s
+12558336/87910968 [===>..........................] - ETA: 2s
+18972672/87910968 [=====>........................] - ETA: 1s
+25534464/87910968 [=======>......................] - ETA: 1s
+32833536/87910968 [==========>...................] - ETA: 0s
+39575552/87910968 [============>.................] - ETA: 0s
+46383104/87910968 [==============>...............] - ETA: 0s
+53411840/87910968 [=================>............] - ETA: 0s
+60309504/87910968 [===================>..........] - ETA: 0s
+67100672/87910968 [=====================>........] - ETA: 0s
+73998336/87910968 [========================>.....] - ETA: 0s
+79200256/87910968 [==========================>...] - ETA: 0s
+80658432/87910968 [==========================>...] - ETA: 0s
+86769664/87910968 [============================>.] - ETA: 0s
+87916544/87910968 [==============================] - 1s 0us/step
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+    8192/94653016 [..............................] - ETA: 2:08
+  139264/94653016 [..............................] - ETA: 46s 
+  524288/94653016 [..............................] - ETA: 22s
+ 1327104/94653016 [..............................] - ETA: 12s
+ 2752512/94653016 [..............................] - ETA: 8s 
+ 5111808/94653016 [>.............................] - ETA: 5s
+ 9658368/94653016 [==>...........................] - ETA: 3s
+16121856/94653016 [====>.........................] - ETA: 1s
+22691840/94653016 [======>.......................] - ETA: 1s
+27615232/94653016 [=======>......................] - ETA: 1s
+34283520/94653016 [=========>....................] - ETA: 0s
+36167680/94653016 [==========>...................] - ETA: 0s
+42270720/94653016 [============>.................] - ETA: 0s
+44523520/94653016 [=============>................] - ETA: 0s
+48971776/94653016 [==============>...............] - ETA: 0s
+53420032/94653016 [===============>..............] - ETA: 0s
+55279616/94653016 [================>.............] - ETA: 0s
+58982400/94653016 [=================>............] - ETA: 0s
+62939136/94653016 [==================>...........] - ETA: 0s
+66756608/94653016 [====================>.........] - ETA: 0s
+71262208/94653016 [=====================>........] - ETA: 0s
+73457664/94653016 [======================>.......] - ETA: 0s
+75718656/94653016 [======================>.......] - ETA: 0s
+80166912/94653016 [========================>.....] - ETA: 0s
+86794240/94653016 [==========================>...] - ETA: 0s
+90169344/94653016 [===========================>..] - ETA: 0s
+94658560/94653016 [==============================] - 2s 0us/step
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+    8192/83683744 [..............................] - ETA: 2:24
+  106496/83683744 [..............................] - ETA: 54s 
+  352256/83683744 [..............................] - ETA: 30s
+  958464/83683744 [..............................] - ETA: 15s
+ 2113536/83683744 [..............................] - ETA: 8s 
+ 4448256/83683744 [>.............................] - ETA: 5s
+ 8773632/83683744 [==>...........................] - ETA: 2s
+15499264/83683744 [====>.........................] - ETA: 1s
+20037632/83683744 [======>.......................] - ETA: 1s
+26279936/83683744 [========>.....................] - ETA: 1s
+31318016/83683744 [==========>...................] - ETA: 0s
+35635200/83683744 [===========>..................] - ETA: 0s
+42033152/83683744 [==============>...............] - ETA: 0s
+46415872/83683744 [===============>..............] - ETA: 0s
+52068352/83683744 [=================>............] - ETA: 0s
+56811520/83683744 [===================>..........] - ETA: 0s
+62488576/83683744 [=====================>........] - ETA: 0s
+68730880/83683744 [=======================>......] - ETA: 0s
+74776576/83683744 [=========================>....] - ETA: 0s
+80584704/83683744 [===========================>..] - ETA: 0s
+83689472/83683744 [==============================] - 1s 0us/step
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+    8192/80134624 [..............................] - ETA: 1:58
+  139264/80134624 [..............................] - ETA: 40s 
+  491520/80134624 [..............................] - ETA: 20s
+ 1466368/80134624 [..............................] - ETA: 10s
+ 3416064/80134624 [>.............................] - ETA: 5s 
+ 6840320/80134624 [=>............................] - ETA: 3s
+12738560/80134624 [===>..........................] - ETA: 1s
+19488768/80134624 [======>.......................] - ETA: 1s
+26353664/80134624 [========>.....................] - ETA: 0s
+32882688/80134624 [===========>..................] - ETA: 0s
+39419904/80134624 [=============>................] - ETA: 0s
+46186496/80134624 [================>.............] - ETA: 0s
+52944896/80134624 [==================>...........] - ETA: 0s
+59686912/80134624 [=====================>........] - ETA: 0s
+66314240/80134624 [=======================>......] - ETA: 0s
+71262208/80134624 [=========================>....] - ETA: 0s
+72581120/80134624 [==========================>...] - ETA: 0s
+75317248/80134624 [===========================>..] - ETA: 0s
+79167488/80134624 [============================>.] - ETA: 0s
+80142336/80134624 [==============================] - 1s 0us/step
+
+
+Starting for model: InceptionV3 ...
+
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/1
+ - 328s - loss: 0.2834 - categorical_accuracy: 0.9559 - val_loss: 0.3298 - val_categorical_accuracy: 0.9564
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/3
+
+Epoch 00001: val_loss improved from inf to 0.23367, saving model to InceptionV3.weights.best.from_scratch.hdf5
+ - 465s - loss: 0.1643 - categorical_accuracy: 0.9562 - val_loss: 0.2337 - val_categorical_accuracy: 0.9564
+Epoch 2/3
+
+Epoch 00002: val_loss did not improve
+ - 430s - loss: 0.1558 - categorical_accuracy: 0.9562 - val_loss: 0.2452 - val_categorical_accuracy: 0.9564
+Epoch 3/3
+
+Epoch 00003: val_loss did not improve
+ - 433s - loss: 0.1518 - categorical_accuracy: 0.9562 - val_loss: 0.2409 - val_categorical_accuracy: 0.9564
+
+--- 1657.188759803772 seconds ---
+
+Accuracy score:  0.9553143951484201
+Precision score:  0.9553143951484201
+Recall score:  1.0
+F1 score:  0.9553143951484201
+
+
+Starting for model: ResNet50 ...
+
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/1
+ - 453s - loss: 0.7060 - categorical_accuracy: 0.9559 - val_loss: 0.7030 - val_categorical_accuracy: 0.9564
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/3
+
+Epoch 00001: val_loss improved from inf to 0.70302, saving model to ResNet50.weights.best.from_scratch.hdf5
+ - 650s - loss: 0.7062 - categorical_accuracy: 0.9562 - val_loss: 0.7030 - val_categorical_accuracy: 0.9564
+Epoch 2/3
+
+Epoch 00002: val_loss did not improve
+ - 627s - loss: 0.7062 - categorical_accuracy: 0.9562 - val_loss: 0.7030 - val_categorical_accuracy: 0.9564
+Epoch 3/3
+
+Epoch 00003: val_loss did not improve
+ - 627s - loss: 0.7062 - categorical_accuracy: 0.9562 - val_loss: 0.7030 - val_categorical_accuracy: 0.9564
+
+--- 2358.5821249485016 seconds ---
+
+Accuracy score:  0.9553143951484201
+Precision score:  0.9553143951484201
+Recall score:  1.0
+F1 score:  0.9553143951484201
+
+
+Starting for model: Xception ...
+
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/1
+ - 433s - loss: 0.1979 - categorical_accuracy: 0.9554 - val_loss: 0.2599 - val_categorical_accuracy: 0.9564
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/3
+
+Epoch 00001: val_loss improved from inf to 0.17955, saving model to Xception.weights.best.from_scratch.hdf5
+ - 580s - loss: 0.1609 - categorical_accuracy: 0.9563 - val_loss: 0.1796 - val_categorical_accuracy: 0.9562
+Epoch 2/3
+
+Epoch 00002: val_loss improved from 0.17955 to 0.17878, saving model to Xception.weights.best.from_scratch.hdf5
+ - 568s - loss: 0.1554 - categorical_accuracy: 0.9563 - val_loss: 0.1788 - val_categorical_accuracy: 0.9562
+Epoch 3/3
+
+Epoch 00003: val_loss improved from 0.17878 to 0.17805, saving model to Xception.weights.best.from_scratch.hdf5
+ - 574s - loss: 0.1519 - categorical_accuracy: 0.9563 - val_loss: 0.1780 - val_categorical_accuracy: 0.9562
+
+--- 2156.516918897629 seconds ---
+
+Accuracy score:  0.9553143951484201
+Precision score:  0.9553143951484201
+Recall score:  1.0
+F1 score:  0.9553143951484201
+
+
+Starting for model: VGG19 ...
+
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/1
+ - 581s - loss: 0.1789 - categorical_accuracy: 0.9558 - val_loss: 0.1649 - val_categorical_accuracy: 0.9564
+Train on 44323 samples, validate on 6282 samples
+Epoch 1/3
+
+Epoch 00001: val_loss improved from inf to 0.14412, saving model to VGG19.weights.best.from_scratch.hdf5
+ - 641s - loss: 0.1532 - categorical_accuracy: 0.9562 - val_loss: 0.1441 - val_categorical_accuracy: 0.9564
+Epoch 2/3
+
+Epoch 00002: val_loss improved from 0.14412 to 0.13800, saving model to VGG19.weights.best.from_scratch.hdf5
+ - 629s - loss: 0.1397 - categorical_accuracy: 0.9562 - val_loss: 0.1380 - val_categorical_accuracy: 0.9564
+Epoch 3/3
+
+Epoch 00003: val_loss improved from 0.13800 to 0.13390, saving model to VGG19.weights.best.from_scratch.hdf5
+ - 628s - loss: 0.1322 - categorical_accuracy: 0.9562 - val_loss: 0.1339 - val_categorical_accuracy: 0.9564
+
+--- 2479.006247997284 seconds ---
+
+Accuracy score:  0.9553143951484201
+Precision score:  0.9553143951484201
+Recall score:  1.0
+F1 score:  0.9553143951484201
