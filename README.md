@@ -10,6 +10,7 @@ chest X-ray to determine if the patient is suffering from cardiomegaly.
 Using transfer learning on VGG19, was able to achieve a F1-score of 0.9553
 
 Url: https://goo.gl/aAN9rE
+<br /> <br />
 
 
 <b>Creating Customer Segments</b>
