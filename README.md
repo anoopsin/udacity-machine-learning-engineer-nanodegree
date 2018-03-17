@@ -68,20 +68,6 @@ Url: https://goo.gl/fcor4g
 <br /> <br />
 
 
-<b>Finding Donors for CharityML</b>
-
-Algorithm: Gradient Boosting Ensemble, Logistic Regression and Support Vector Machines
-
-Data Set: Census Income Data Set - https://archive.ics.uci.edu/ml/datasets/Census+Income
-
-Employed several supervised algorithms to accurately model individuals' income using data collected from the 1994 U.S. Census.
-Along with other features, this can help a non-profit better understand how large of a donation to request, or whether or not
-they should reach out to begin with. 
-
-Url: https://goo.gl/fcor4g
-<br /> <br />
-
-
 <b>Predicting Boston Housing Prices</b>
 
 Algorithm: Decision Tree Regression
