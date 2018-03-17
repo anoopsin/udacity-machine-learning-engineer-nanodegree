@@ -1,4 +1,4 @@
--- Titanic Survival Exploration
+<b>Titanic Survival Exploration</b>
 
 Algorithm: Manual implementation of Decision Trees
 
@@ -6,9 +6,9 @@ Created decision functions that attempt to predict survival outcomes from the 19
 features, such as sex and age with 80% accuracy.
 
 Url: https://goo.gl/vzMzFd
+<br /> <br />
 
-
--- Naive Bayes Spam Classifier
+<b>Naive Bayes Spam Classifier</b>
 
 Algorithm: Manual implementation of Naive Bayes
 
@@ -17,9 +17,9 @@ Data Set: SMS Spam Collection Data Set - https://archive.ics.uci.edu/ml/datasets
 Used the Naive Bayes algorithm to create a model that can classify dataset SMS messages as spam or not spam.
 
 Url: https://goo.gl/iVkAAu
+<br /> <br />
 
-
--- Predicting Boston Housing Prices
+<b>Predicting Boston Housing Prices</b>
 
 Algorithm: Decision Tree Regression
 
@@ -27,9 +27,9 @@ Evaluated the performance and predictive power of a model that has been trained 
 suburbs of Boston, Massachusetts.
 
 Url: https://goo.gl/a3z2vN
+<br /> <br />
 
-
--- Finding Donors for CharityML
+<b>Finding Donors for CharityML</b>
 
 Algorithm: Gradient Boosting Ensemble, Logistic Regression and Support Vector Machines
 
@@ -40,9 +40,9 @@ Along with other features, this can help a non-profit better understand how larg
 they should reach out to begin with. 
 
 Url: https://goo.gl/fcor4g
+<br /> <br />
 
-
--- Train a Smartcab to Drive
+<b>Train a Smartcab to Drive</b>
 
 Algorithm: Q-Learning
 
@@ -53,9 +53,9 @@ avoiding accidents would be considered unsafe. Similarly, a driving agent that f
 time would be considered unreliable.
 
 Url: https://goo.gl/nB4hY5
+<br /> <br />
 
-
--- Identifying dog breeds
+<b>Identifying dog breeds</b>
 
 Algorithm: OpenCV, Convolutional Neural Networks: ResNet-50, VGG-16, VGG-19, Inception and Xception
 
@@ -65,9 +65,9 @@ accuracy.
 See project ML: Identifying dog breeds
 
 Url: https://goo.gl/zfbbBE
+<br /> <br />
 
-
--- Creating Customer Segments
+<b>Creating Customer Segments</b>
 
 Algorithm: Decision Tree Regression, PCA and K-Means Clustering
 
@@ -78,9 +78,9 @@ structure. Described the variation in the different types of customers that a wh
 the distributor with insight into how to best structure their delivery service to meet the needs of each customer.
 
 Url: https://goo.gl/jP3wRp
+<br /> <br />
 
-
--- Capstone - Diagnosing Cardiomegaly from X-rays
+<b>Capstone - Diagnosing Cardiomegaly from X-rays</b>
 
 Algorithm: Convolutional Neural Networks, Transfer Learning from ImageNet trained models
 
